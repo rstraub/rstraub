@@ -1,0 +1,40 @@
+h1
+  | Hello there!
+
+include templates/about-me.pug
+hr
+
+if badges && badges.length
+  include templates/badges.pug
+
+if articles && articles.length
+  include templates/medium-articles.pug
+
+if instagram && instagram.length
+  include templates/instagram.pug
+
+if github && github.enabled
+  include templates/github-stats
+
+if social && social.length
+  include templates/social.pug
+
+br
+hr
+
+p(align='center')
+  | This README file is automatically generated every day! The last refresh was on !{refreshDate}.
+  br
+  | Do you want an awesome GitHub README as well? Read about it in!{' '}
+  a(href='https://medium.com/@arjenbrandenburgh/you-should-stand-out-on-github-with-a-readme-profile-467e047b6c18' target='_blank')
+    | this article
+  | .
+
+p(align='center')
+  img(src='https://github.com/' + github.username + '/' + github.username + '/workflows/README%20build/badge.svg')
+  |  
+  img(alt='Stars' src!='https://img.shields.io/github/stars/arjenbrandenburgh/arjenbrandenburgh?style=flat-square&labelColor=343b41')
+  |  
+  img(alt='Forks' src!='https://img.shields.io/github/forks/arjenbrandenburgh/arjenbrandenburgh?style=flat-square&labelColor=343b41')
+  |  
+  img(src!='https://gpvc.arturio.dev/' + github.username alt='Profile views')
