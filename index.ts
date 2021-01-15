@@ -60,14 +60,6 @@ async function getSocialData() {
   return Promise.resolve({ social });
 }
 
-async function getInstagramPosts() {
-  const instagramImages = await puppeteerService.getLatestInstagramPostsFromAccount(
-    CONFIG.instagram.username,
-    CONFIG.instagram.numberOfImages || 3
-  );
-
-  return Promise.resolve({ instagram: instagramImages });
-}
 
 async function generateReadMe(input) {
   const compiledHtml = pug.compileFile(PUG_MAIN_FILE, { pretty: true })(input);
