@@ -61,6 +61,7 @@ export const CONFIG = {
       },
       {
 	name: 'Vue',
+	logo: 'vue.js'
       }
     ],
   },
