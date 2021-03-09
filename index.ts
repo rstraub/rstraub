@@ -15,6 +15,13 @@ async function getMediumArticles() {
   }));
 }
 
+async function getCodesquadArticles() {
+  const url = `https://www.codesquad.nl/author/matthijs-thoolen/feed`;
+  return Feed.load(url).then(data => ({
+    csArticles: data.items,
+  }))
+}
+
 async function generateBadges() {
   const colors = new Rainbow();
   colors.setNumberRange(1, CONFIG.badges.list.length);
@@ -82,6 +89,7 @@ async function perform() {
 
   if (CONFIG.mediumArticles && CONFIG.mediumArticles.enabled) {
     promises.push(getMediumArticles());
+    promises.push(getCodesquadArticles());
   }
 
   // Refresh date
@@ -106,4 +114,5 @@ async function perform() {
   generateReadMe(input);
 }
 
+// getCodesquadArticles().then(it => console.log(it))
 perform();
