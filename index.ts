@@ -8,6 +8,12 @@ import * as fs from 'fs';
 
 const PUG_MAIN_FILE = './main.pug';
 
+async function getMediumArticles() {
+  const url = `https://medium.com/feed/@${CONFIG.mediumArticles.username}`;
+  return Feed.load(url).then(data => ({
+    articles: data.items.slice(0, CONFIG.mediumArticles.numberOfArticles || 5),
+  }));
+}
 
 async function generateBadges() {
   const colors = new Rainbow();
@@ -72,6 +78,10 @@ async function perform() {
   // Badges
   if (CONFIG.badges && CONFIG.badges.enabled) {
     promises.push(generateBadges());
+  }
+
+  if (CONFIG.mediumArticles && CONFIG.mediumArticles.enabled) {
+    promises.push(getMediumArticles());
   }
 
   // Refresh date

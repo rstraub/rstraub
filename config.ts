@@ -21,6 +21,10 @@ export const CONFIG = {
       color: '4285F4',
       logo: 'google-chrome',
       url: 'https://www.goodreads.com/review/list/99045566?ref=nav_mybooks',
+    },{
+      name: 'Medium',
+      color: '12100E',
+      url: 'https://mjjthoolen.medium.com/',
     },
   ],
   github: {
@@ -36,6 +40,11 @@ export const CONFIG = {
       overallStats: true,
     },
     highlightedRepos: ['mthoolen'],
+  },
+  mediumArticles: {
+    enabled: true,
+    username: 'mjjthoolen',
+    numberOfArticles: 10,
   },
   badges: {
     enabled: true,
