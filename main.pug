@@ -1,17 +1,20 @@
 h1
-  | Hello there!
+  | Hello visitor!
 
 include templates/about-me.pug
 hr
 
-if badges && badges.length
-  include templates/badges.pug
+if readBooks && readBooks.length
+  include templates/books.pug
 
 if articles && articles.length
   include templates/medium-articles.pug
 
 if github && github.enabled
   include templates/github-stats
+
+if badges && badges.length
+  include templates/badges.pug
 
 if social && social.length
   include templates/social.pug

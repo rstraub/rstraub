@@ -27,6 +27,12 @@ export const CONFIG = {
       url: 'https://mjjthoolen.medium.com/',
     },
   ],
+  goodreads: {
+    url: 'https://www.goodreads.com/review/list_rss/99045566?key=',
+    key: 'eP81k66ow-FF_wIfcCrUkRmUhPwZvHragRuiES3uxvPXvrjo',
+    numberOfBooks: 5,
+    enabled: true
+  },
   github: {
     username: 'mthoolen',
     colors: {
