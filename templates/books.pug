@@ -1,14 +1,9 @@
 h2 Reading Shelf
 h3 Currently reading
-- const listStyle = {"list-style": "none","min-height": "100%","display": "flex","flex-flow": "row wrap","justify-content": "space-around","align-items": "center","background": "lighten(lightblue,17%)","padding-top": "20px"}
-ul(style=listStyle)
-  each book in currentlyReading
-    li
-      a(href=book.link)
+each book in currentlyReading
+    a(href=book.link)
         img(src=book.book_medium_image_url)
 h3 Other books I've read
-ul(style=listStyle)
-  each book in readBooks
-    li
-      a(href=book.link)
-        img(src=book.book_small_image_url)
+each book in readBooks
+        a(href=book.link)
+            img(src=book.book_small_image_url)
