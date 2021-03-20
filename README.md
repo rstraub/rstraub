@@ -9,7 +9,7 @@
 <h2>Articles</h2>
 <h3>Medium</h3>
 <ul>
-  <li><a href="https://medium.com/@mjjthoolen/trouble-finishing-projects-or-books-interrupt-yourself-cc7297163a7d?source=rss-13f57454df93------2"><b>Trouble finishing projects or books? Interrupt yourself.</b></a></li>
+  <li><a href="https://mjjthoolen.medium.com/trouble-finishing-projects-or-books-interrupt-yourself-cc7297163a7d?source=rss-13f57454df93------2"><b>Trouble finishing projects or books? Interrupt yourself.</b></a></li>
 </ul>
 <h3>Codesquad</h3>
 <ul>
@@ -28,5 +28,5 @@
 <p><a href="https://github.com/mthoolen" target="_blank"><img alt="Github" src="https://img.shields.io/badge/Github-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white"/></a><a href="https://twitter.com/MThoolen" target="_blank"><img alt="Twitter" src="https://img.shields.io/badge/Twitter-%231DA1F2.svg?&style=for-the-badge&logo=Twitter&logoColor=white"/></a><a href="https://www.linkedin.com/in/matthijs-thoolen-4757a812a/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=for-the-badge&logo=LinkedIn&logoColor=white"/></a><a href="https://www.goodreads.com/review/list/99045566?ref=nav_mybooks" target="_blank"><img alt="Goodreads" src="https://img.shields.io/badge/Goodreads-%234285F4.svg?&style=for-the-badge&logo=google-chrome&logoColor=white"/></a><a href="https://mjjthoolen.medium.com/" target="_blank"><img alt="Medium" src="https://img.shields.io/badge/Medium-%2312100E.svg?&style=for-the-badge&logo=Medium&logoColor=white"/></a>
 </p><br/>
 <hr/>
-<p align="center">This README file is automatically generated every day! The last refresh was on Friday, 19 March, 15:02 CET.<br/>Do you want an awesome GitHub README as well? Read about it in <a href="https://medium.com/@arjenbrandenburgh/you-should-stand-out-on-github-with-a-readme-profile-467e047b6c18" target="_blank">this article</a>.</p>
+<p align="center">This README file is automatically generated every day! The last refresh was on Saturday, 20 March, 01:28 CET.<br/>Do you want an awesome GitHub README as well? Read about it in <a href="https://medium.com/@arjenbrandenburgh/you-should-stand-out-on-github-with-a-readme-profile-467e047b6c18" target="_blank">this article</a>.</p>
 <p align="center"><img src="https://github.com/mthoolen/mthoolen/workflows/README%20build/badge.svg"/> <img alt="Stars" src="https://img.shields.io/github/stars/arjenbrandenburgh/arjenbrandenburgh?style=flat-square&labelColor=343b41"/> <img alt="Forks" src="https://img.shields.io/github/forks/arjenbrandenburgh/arjenbrandenburgh?style=flat-square&labelColor=343b41"/> <img src="https://gpvc.arturio.dev/mthoolen" alt="Profile views"/></p>
