@@ -10,16 +10,11 @@ import * as fs from 'fs';
 const PUG_MAIN_FILE = './main.pug';
 const rssParser = new RssParser({customFields: {item: ['book_description','book_small_image_url','pubDate','book_medium_image_url']}});
 
-async function getMediumArticles() {
-    const url = `https://medium.com/feed/@${CONFIG.mediumArticles.username}`;
+async function getCodeCraftrArticles() {
+    const url = `https://www.codecraftr.nl/feed.xml`;
     return Feed.load(url).then(data => ({
-        articles: data.items.slice(0, CONFIG.mediumArticles.numberOfArticles || 5)
+        articles: data.items.slice(0, CONFIG.codeCraftrArticles.numberOfArticles || 5)
     }));
-}
-
-async function getCodesquadArticles() {
-    const url = `https://www.codesquad.nl/author/matthijs-thoolen/feed`;
-    return Feed.load(url).then(data => ({csArticles: data.items}));
 }
 
 async function getCurrentlyReading() {
@@ -42,7 +37,7 @@ async function generateBadges() {
     colors.setSpectrum(...CONFIG.badges.spectrum);
     const formattedBadges = CONFIG.badges.list.map((badge, index) => ({
         name: badge.name,
-        logo: badge.logo || badge.name.toLocaleLowerCase(),
+        logo: badge.name.toLocaleLowerCase(),
         color: colors.colourAt(index)
     }));
     return Promise.resolve({badges: formattedBadges});
@@ -97,9 +92,8 @@ async function perform() {
         promises.push(generateBadges());
     }
 
-    if (CONFIG.mediumArticles && CONFIG.mediumArticles.enabled) {
-        promises.push(getMediumArticles());
-        promises.push(getCodesquadArticles());
+    if (CONFIG.codeCraftrArticles && CONFIG.codeCraftrArticles.enabled) {
+        promises.push(getCodeCraftrArticles());
     }
 
     if(CONFIG.goodreads && CONFIG.goodreads.enabled) {

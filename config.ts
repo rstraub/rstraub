@@ -2,39 +2,35 @@ export const CONFIG = {
   social: [
     {
       name: 'Github',
-      username: 'mthoolen',
+      username: 'rstraub',
       color: '12100E',
-      url: 'https://github.com/mthoolen',
+      url: 'https://github.com/rstraub',
     },
     {
       name: 'Twitter',
       color: '1DA1F2',
-      url: 'https://twitter.com/MThoolen',
+      url: 'https://twitter.com/CCraftr',
     },
     {
       name: 'LinkedIn',
       color: '0077B5',
-      url: 'https://www.linkedin.com/in/matthijs-thoolen-4757a812a/',
+      url: 'https://www.linkedin.com/in/r-straub/',
     },
     {
       name: 'Goodreads',
       color: '4285F4',
       logo: 'google-chrome',
-      url: 'https://www.goodreads.com/review/list/99045566?ref=nav_mybooks',
-    },{
-      name: 'Medium',
-      color: '12100E',
-      url: 'https://mjjthoolen.medium.com/',
-    },
+      url: 'https://www.goodreads.com/review/list/95074711',
+    }
   ],
   goodreads: {
-    url: 'https://www.goodreads.com/review/list_rss/99045566?key=',
+    url: 'https://www.goodreads.com/review/list_rss/95074711?key=',
     key: 'eP81k66ow-FF_wIfcCrUkRmUhPwZvHragRuiES3uxvPXvrjo',
     numberOfBooks: 5,
     enabled: true
   },
   github: {
-    username: 'mthoolen',
+    username: 'rstraub',
     colors: {
       title: '24292e',
       text: '24292e',
@@ -45,12 +41,11 @@ export const CONFIG = {
       mostUsedLanguages: true,
       overallStats: true,
     },
-    highlightedRepos: ['mthoolen'],
+    highlightedRepos: ['rstraub'],
   },
-  mediumArticles: {
+  codeCraftrArticles: {
     enabled: true,
-    username: 'mjjthoolen',
-    numberOfArticles: 10,
+    numberOfArticles: 20,
   },
   badges: {
     enabled: true,
@@ -63,20 +58,7 @@ export const CONFIG = {
         name: 'Kotlin',
       },
       {
-	name: 'Haskell',
-      },
-      {
-	name: 'Clojure',
-      },
-      {
-	name: 'Groovy',
-      },
-      {
-	name: 'Angular',
-      },
-      {
-	name: 'Vue',
-	logo: 'vue.js'
+        name: 'Javascript',
       }
     ],
   },
