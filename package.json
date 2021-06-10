@@ -9,13 +9,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mthoolen/mthoolen.git"
+    "url": "git+https://github.com/rstraub/rstraub.git"
   },
   "bugs": {
-    "url": "https://github.com/mthoolen/mthoolen#readme"
+    "url": "https://github.com/rstraub/rstraub#readme"
   },
-  "homepage": "https://github.com/mthoolen/mthoolen#readme",
-  "author": "Matthijs Thoolen",
+  "homepage": "https://github.com/rstraub/rstraub#readme",
+  "author": "Roy Straub",
   "license": "ISC",
   "dependencies": {
     "@types/node": "^14.0.27",
