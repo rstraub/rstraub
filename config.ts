@@ -52,10 +52,13 @@ export const CONFIG = {
     spectrum: ['46a2f1', '311C87', 'DD0031', '43853d'],
     list: [
       {
+        name: 'Kotlin',
+      },
+      {
         name: 'Java',
       },
       {
-        name: 'Kotlin',
+        name: 'Scala'
       },
       {
         name: 'Javascript',
