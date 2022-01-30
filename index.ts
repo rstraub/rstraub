@@ -25,7 +25,7 @@ async function getCurrentlyReading() {
 }
 
 async function getReadBooks() {
-    const url = CONFIG.goodreads.url + CONFIG.goodreads.key + `&shelf=work,read`;
+    const url = CONFIG.goodreads.url + CONFIG.goodreads.key + `&shelf=read`;
     return rssParser.parseURL(url).then(data => ({
         readBooks: data.items.sort((a,b)=>b.isoDate.localeCompare(a.isoDate))
     }))

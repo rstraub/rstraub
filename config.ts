@@ -62,6 +62,9 @@ export const CONFIG = {
       },
       {
         name: 'Javascript',
+      },
+      {
+        name: 'Typescript',
       }
     ],
   },
