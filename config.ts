@@ -19,8 +19,17 @@ export const CONFIG = {
     {
       name: 'Goodreads',
       color: '4285F4',
-      logo: 'google-chrome',
-      url: 'https://www.goodreads.com/review/list/95074711',
+      url: 'https://www.goodreads.com/codecraftr',
+    },
+    {
+      name: 'Medium',
+      color: '12100E',
+      url: 'https://codecraftr.medium.com/',
+    },
+    {
+      name: 'Dev.to',
+      color: '12100E',
+      url: 'https://dev.to/codecraftr'
     }
   ],
   goodreads: {
