@@ -17,20 +17,6 @@ async function getCodeCraftrArticles() {
     }));
 }
 
-async function getCurrentlyReading() {
-    const url = CONFIG.goodreads.url + CONFIG.goodreads.key + `&shelf=currently-reading`;
-    return rssParser.parseURL(url).then(data => ({
-        currentlyReading: data.items
-    }))
-}
-
-async function getReadBooks() {
-    const url = CONFIG.goodreads.url + CONFIG.goodreads.key + `&shelf=read`;
-    return rssParser.parseURL(url).then(data => ({
-        readBooks: data.items.sort((a,b)=>b.isoDate.localeCompare(a.isoDate))
-    }))
-}
-
 async function generateBadges() {
     const colors = new Rainbow();
     colors.setNumberRange(1, CONFIG.badges.list.length);
@@ -96,10 +82,6 @@ async function perform() {
         promises.push(getCodeCraftrArticles());
     }
 
-    if(CONFIG.goodreads && CONFIG.goodreads.enabled) {
-        promises.push(getCurrentlyReading());
-        promises.push(getReadBooks());
-    }
     promises.push(getRefreshDate());
     promises.push(getGithubData());
     promises.push(getSocialData());
