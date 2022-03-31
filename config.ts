@@ -33,12 +33,7 @@ export const CONFIG = {
       url: 'https://dev.to/codecraftr'
     }
   ],
-  goodreads: {
-    url: 'https://www.goodreads.com/review/list_rss/95074711?key=',
-    key: 'eP81k66ow-FF_wIfcCrUkRmUhPwZvHragRuiES3uxvPXvrjo',
-    numberOfBooks: 5,
-    enabled: true
-  },
+
   github: {
     username: 'rstraub',
     colors: {
