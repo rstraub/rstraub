@@ -1,17 +1,15 @@
 
-<h1>👋 Hi there!</h1>
-<h2>🙋‍♂️ A Little Bit About Me</h2>
+<h1>Hi there! 👋</h1>
+<h2>A Little Bit About Me 🙋‍♂️</h2>
 <p>My name is Roy Straub. I've been (happily) coding since 2010 and made it my profession in 2015.</p>
 <p>Since then I have worked as a Frontend and Backend Developer, and like being a polyglot. Most of my experience is in Kotlin, Java, Javascript, Typescript, but I also dabble in Scala and Python.</p>
 <p>I currently work for Xebia as a Software Developer.</p>
-<h2>👨‍💻 Passion for Software Craftsmanship</h2>
+<h2>Passion for Software Craftsmanship 👨‍💻</h2>
 <p>After a few years of developing software I got my hands on a copy of The Pragmatic Programmer, which was a pivotal moment in my career. It made me realise the importance of the how of software development, not necessary the what.</p>
-<p>
-    <em>A good carpenter makes the difference by the way he wields his hammer, not by which one he is wielding.</em></p>
-<p>
-   Ever since reading that book I've been exploring the realm of Software Craftsmanship. I publish my findings on my <a href="https://www.codecraftr.nl/">blog</a>. </p>
+<p><em>A good carpenter makes the difference by the way he wields his hammer, not by which one he is wielding.</em></p>
+<p>Ever since reading that book I've been exploring the realm of Software Craftsmanship. I publish my findings on my<a href="https://www.codecraftr.nl/">blog</a>.</p>
 <hr/>
-<h2>🖋️ Articles</h2>
+<h2>Articles 🖋️</h2>
 <ul>
   <li><a href="https://www.codecraftr.nl/technical-blogging-book-review/"><b>📘 Book Review: Technical Blogging</b></a></li>
   <li><a href="https://www.codecraftr.nl/microtypes-improving-software-design/"><b>🏋️ The Might of Microtypes</b></a></li>
@@ -24,13 +22,13 @@
   <li><a href="https://www.codecraftr.nl/interfaces-defining-roles/"><b>☕ Improving Software Design with Role Interfaces</b></a></li>
   <li><a href="https://www.codecraftr.nl/blog-content-language-switch/"><b>Change of content language 🌍</b></a></li>
 </ul>
-<h2>📊 GitHub Stats</h2><a href="https://github.com/rstraub/rstraub"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rstraub&amp;title_color=24292e&amp;text_color=24292e&amp;icon_color=24292e&amp;bg_color=ffffff"/></a><a href="https://github.com/rstraub/rstraub"><img align="center" src="https://github-readme-stats.vercel.app/api?username=rstraub&amp;show_icons=true&amp;line_height=27&amp;count_private=true&amp;title_color=24292e&amp;text_color=24292e&amp;icon_color=24292e&amp;bg_color=ffffff"/></a><br/><a href="https://github.com/rstraub/rstraub"><img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=rstraub&amp;repo=rstraub&amp;title_color=24292e&amp;text_color=24292e&amp;icon_color=24292e&amp;bg_color=ffffff"/></a>
-<h2>🔧 Languages I Work With</h2>
-<p><img alt="Kotlin" src="https://img.shields.io/badge/-Kotlin-46a2f1?style=flat-square&logo=kotlin&logoColor=white"/><img alt="Java" src="https://img.shields.io/badge/-Java-46a2f1?style=flat-square&logo=java&logoColor=white"/><img alt="Scala" src="https://img.shields.io/badge/-Scala-363da2?style=flat-square&logo=scala&logoColor=white"/><img alt="Javascript" src="https://img.shields.io/badge/-Javascript-870e5c?style=flat-square&logo=javascript&logoColor=white"/><img alt="Typescript" src="https://img.shields.io/badge/-Typescript-b72134?style=flat-square&logo=typescript&logoColor=white"/>
+<h2>GitHub Stats 📊</h2><a href="https://github.com/rstraub/rstraub"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rstraub&amp;title_color=24292e&amp;text_color=24292e&amp;icon_color=24292e&amp;bg_color=ffffff"/></a><a href="https://github.com/rstraub/rstraub"><img align="center" src="https://github-readme-stats.vercel.app/api?username=rstraub&amp;show_icons=true&amp;line_height=27&amp;count_private=true&amp;title_color=24292e&amp;text_color=24292e&amp;icon_color=24292e&amp;bg_color=ffffff"/></a><br/><a href="https://github.com/rstraub/rstraub"><img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=rstraub&amp;repo=rstraub&amp;title_color=24292e&amp;text_color=24292e&amp;icon_color=24292e&amp;bg_color=ffffff"/></a>
+<h2>Languages I Work With 🔧</h2>
+<p><img alt="Kotlin" src="https://img.shields.io/badge/-Kotlin-46a2f1?style=flat-square&logo=kotlin&logoColor=white"/><img alt="Java" src="https://img.shields.io/badge/-Java-46a2f1?style=flat-square&logo=java&logoColor=white"/><img alt="Scala" src="https://img.shields.io/badge/-Scala-3952b1?style=flat-square&logo=scala&logoColor=white"/><img alt="Javascript" src="https://img.shields.io/badge/-Javascript-531676?style=flat-square&logo=javascript&logoColor=white"/><img alt="Python" src="https://img.shields.io/badge/-Python-bb0642?style=flat-square&logo=python&logoColor=white"/><img alt="Typescript" src="https://img.shields.io/badge/-Typescript-9f3536?style=flat-square&logo=typescript&logoColor=white"/>
 </p>
-<h2>📍 Where to Find Me</h2>
+<h2>Where to Find Me 📍</h2>
 <p><a href="https://github.com/rstraub" target="_blank"><img alt="Github" src="https://img.shields.io/badge/Github-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white"/></a><a href="https://twitter.com/CCraftr" target="_blank"><img alt="Twitter" src="https://img.shields.io/badge/Twitter-%231DA1F2.svg?&style=for-the-badge&logo=Twitter&logoColor=white"/></a><a href="https://www.linkedin.com/in/r-straub/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=for-the-badge&logo=LinkedIn&logoColor=white"/></a><a href="https://www.goodreads.com/codecraftr" target="_blank"><img alt="Goodreads" src="https://img.shields.io/badge/Goodreads-%234285F4.svg?&style=for-the-badge&logo=google-chrome&logoColor=white"/></a><a href="https://codecraftr.medium.com/" target="_blank"><img alt="Medium" src="https://img.shields.io/badge/Medium-%2312100E.svg?&style=for-the-badge&logo=Medium&logoColor=white"/></a><a href="https://dev.to/codecraftr" target="_blank"><img alt="Dev.to" src="https://img.shields.io/badge/Dev.to-%2312100E.svg?&style=for-the-badge&logo=Dev.to&logoColor=white"/></a>
 </p><br/>
 <hr/>
-<p align="center">This README file is automatically generated every day! The last refresh was on Friday, 29 April, 04:06 CEST.<br/>Do you want an awesome GitHub README as well? Read about it in <a href="https://medium.com/@arjenbrandenburgh/you-should-stand-out-on-github-with-a-readme-profile-467e047b6c18" target="_blank">this article</a>.</p>
-<p align="center"><img src="https://github.com/rstraub/rstraub/workflows/README%20build/badge.svg"/> <img alt="Stars" src="https://img.shields.io/github/stars/arjenbrandenburgh/arjenbrandenburgh?style=flat-square&labelColor=343b41"/> <img alt="Forks" src="https://img.shields.io/github/forks/arjenbrandenburgh/arjenbrandenburgh?style=flat-square&labelColor=343b41"/> <img src="https://gpvc.arturio.dev/rstraub" alt="Profile views"/></p>
+<p align="center">This README file is automatically generated every day! The last refresh was on Friday, 29 April, 14:51 CEST.<br/>Do you want an awesome GitHub README as well? Read about it in <a href="https://medium.com/@arjenbrandenburgh/you-should-stand-out-on-github-with-a-readme-profile-467e047b6c18" target="_blank">this article</a>.</p>
+<p align="center"><img src="https://github.com/rstraub/rstraub/workflows/README%20build/badge.svg"/><img alt="Stars" src="https://img.shields.io/github/stars/arjenbrandenburgh/arjenbrandenburgh?style=flat-square&labelColor=343b41"/><img alt="Forks" src="https://img.shields.io/github/forks/arjenbrandenburgh/arjenbrandenburgh?style=flat-square&labelColor=343b41"/><img src="https://gpvc.arturio.dev/rstraub" alt="Profile views"/></p>
