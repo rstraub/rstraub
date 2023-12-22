@@ -11,6 +11,7 @@
 <hr/>
 <h2>Articles 🖋️</h2>
 <ul>
+  <li><a href="https://www.codecraftr.nl/p/craft-over-art"><b>Craft over Art</b></a></li>
   <li><a href="https://www.codecraftr.nl/p/stop-testing-implementations"><b>Stop Testing Implementations</b></a></li>
   <li><a href="https://www.codecraftr.nl/p/simple-complicated-simple"><b>Simple, Complicated, Simple</b></a></li>
   <li><a href="https://www.codecraftr.nl/p/it-depends"><b>It Depends</b></a></li>
@@ -30,7 +31,6 @@
   <li><a href="https://www.codecraftr.nl/p/creating-battleship-kata"><b>⚗️ Concocting the Battleship Code Kata</b></a></li>
   <li><a href="https://www.codecraftr.nl/p/domain-driven-design-book-review"><b>📘 Book Review: Domain-Driven Design</b></a></li>
   <li><a href="https://www.codecraftr.nl/p/improving-with-codekatas"><b>🥋 How to become a better developer with CodeKatas</b></a></li>
-  <li><a href="https://www.codecraftr.nl/p/maintainable-tests-with-test-data-builders"><b>🔨 Maintainable tests with Test Data Builders</b></a></li>
 </ul>
 <h2>GitHub Stats 📊</h2><a href="https://github.com/rstraub/rstraub"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rstraub&amp;title_color=24292e&amp;text_color=24292e&amp;icon_color=24292e&amp;bg_color=ffffff"/></a><a href="https://github.com/rstraub/rstraub"><img align="center" src="https://github-readme-stats.vercel.app/api?username=rstraub&amp;show_icons=true&amp;line_height=27&amp;count_private=true&amp;title_color=24292e&amp;text_color=24292e&amp;icon_color=24292e&amp;bg_color=ffffff"/></a><br/><a href="https://github.com/rstraub/rstraub"><img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=rstraub&amp;repo=rstraub&amp;title_color=24292e&amp;text_color=24292e&amp;icon_color=24292e&amp;bg_color=ffffff"/></a>
 <h2>Languages I Work With 🔧</h2>
@@ -40,5 +40,5 @@
 <p><a href="https://github.com/rstraub" target="_blank"><img alt="Github" src="https://img.shields.io/badge/Github-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white"/></a><a href="https://twitter.com/CCraftr" target="_blank"><img alt="Twitter" src="https://img.shields.io/badge/Twitter-%231DA1F2.svg?&style=for-the-badge&logo=Twitter&logoColor=white"/></a><a href="https://www.linkedin.com/in/r-straub/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=for-the-badge&logo=LinkedIn&logoColor=white"/></a><a href="https://www.goodreads.com/codecraftr" target="_blank"><img alt="Goodreads" src="https://img.shields.io/badge/Goodreads-%234285F4.svg?&style=for-the-badge&logo=google-chrome&logoColor=white"/></a><a href="https://codecraftr.medium.com/" target="_blank"><img alt="Medium" src="https://img.shields.io/badge/Medium-%2312100E.svg?&style=for-the-badge&logo=Medium&logoColor=white"/></a><a href="https://dev.to/codecraftr" target="_blank"><img alt="Dev.to" src="https://img.shields.io/badge/Dev.to-%2312100E.svg?&style=for-the-badge&logo=Dev.to&logoColor=white"/></a>
 </p><br/>
 <hr/>
-<p align="center">This README file is automatically generated every day! The last refresh was on Thursday, 21 December, 01:22 CET.<br/>Do you want an awesome GitHub README as well? Read about it in <a href="https://medium.com/@arjenbrandenburgh/you-should-stand-out-on-github-with-a-readme-profile-467e047b6c18" target="_blank">this article</a>.</p>
+<p align="center">This README file is automatically generated every day! The last refresh was on Friday, 22 December, 01:21 CET.<br/>Do you want an awesome GitHub README as well? Read about it in <a href="https://medium.com/@arjenbrandenburgh/you-should-stand-out-on-github-with-a-readme-profile-467e047b6c18" target="_blank">this article</a>.</p>
 <p align="center"><img src="https://github.com/rstraub/rstraub/workflows/README%20build/badge.svg"/><img alt="Stars" src="https://img.shields.io/github/stars/arjenbrandenburgh/arjenbrandenburgh?style=flat-square&labelColor=343b41"/><img alt="Forks" src="https://img.shields.io/github/forks/arjenbrandenburgh/arjenbrandenburgh?style=flat-square&labelColor=343b41"/><img src="https://gpvc.arturio.dev/rstraub" alt="Profile views"/></p>
